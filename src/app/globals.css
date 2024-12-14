@@ -4,18 +4,29 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --main-text: #1B2141;
+  --primary: #566DED;
+  --secondary: #FF7042;
+  --badge: #EBECF5;
+  --secondary-text: #87899C;
+  --foregroundText: #ffffff;
+}
+
+html {
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --main-text: #ededed;
+    --badge: #232324;
+    --secondary-text: #64666f;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--main-text);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }

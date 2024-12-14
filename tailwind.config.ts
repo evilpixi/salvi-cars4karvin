@@ -10,7 +10,12 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        foregroundText: "var(--foregroundText)",
+        primaryText: "var(--primary-text)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        badge: "var(--badge)",
+        secondaryText: "var(--secondary-text)",
       },
     },
   },
